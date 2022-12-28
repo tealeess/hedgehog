@@ -1,0 +1,67 @@
+.hero
+    padding-top: 18.125rem
+    padding-bottom: 9.25rem
+    margin-top: -10.3125rem
+    background: url('../img/hedge1.png') no-repeat left bottom, url('../img/hedge2.png') no-repeat right bottom,  url('../img/hero-bg.png') no-repeat top
+    &-block
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        margin-bottom: 7.9375rem
+    &__title
+        margin-bottom: 1.25rem
+    &__subtitle
+        text-transform: uppercase
+        font-weight: 400
+        font-size: 3.125rem
+        color: $lightGreen
+        margin-bottom: 1.125rem
+    &__text
+        text-transform: uppercase
+        font-family: 'Raleway', sans-serif
+        font-size: 0.875rem
+        color: $lightGreen
+        margin-bottom: 2.125rem
+    &__button
+        font-family: 'Raleway', sans-serif
+        font-weight: bold
+        color: #fff
+        padding: 1.625rem 7.25rem
+    &-benefits
+        display: flex
+        justify-content: space-between
+        .card
+            display: flex
+            flex-direction: column
+            align-items: center
+            text-align: center
+            max-width: 11.375rem
+            width: 100%
+            margin-top: 1.7rem
+            &:nth-of-type(2)
+                margin-top: 0 
+                .card
+                    &__img
+                        background: url('../img/card-img-syringe.svg') no-repeat center, $lighterGreen
+            &:nth-of-type(3) 
+                .card
+                    &__img
+                        background: url('../img/card-img-heart.svg') no-repeat center, $lightGreen
+            &__img
+                max-width: 9.5rem
+                width: 100%
+                height: 9.5rem
+                background: url('../img/card-img-hedge.svg') no-repeat center, $beige
+                border-radius: 50%
+                box-shadow: 4px 4px 20px #C2CCCA, -8px -8px 20px #FFFFFF
+                margin-bottom: 1.875rem
+            &__title
+                text-transform: uppercase
+                font-weight: bold
+                color: $mainGreen
+                margin-bottom: 0.5rem
+            &__text
+                font-family: 'Raleway', sans-serif
+                font-size: 0.875rem
+                color: $mainGreen

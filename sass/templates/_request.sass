@@ -1,0 +1,103 @@
+.request
+    padding-bottom: 3.75rem
+    .form
+        padding: 2.5rem 3.125rem 5rem
+        background: $grey2
+        border-radius: 30px
+        position: relative
+        margin-bottom: 5.9375rem
+        &__title
+            font-weight: bold
+            font-size: 2.8125rem
+            color: $mainGreen
+            line-height: 3.375rem
+            margin-bottom: 1.875rem
+        &-top
+            display: flex
+            justify-content: space-between
+            align-items: center
+            margin-bottom: 2.6875rem
+            &-buttons
+                display: flex
+                &__item
+                    padding: 1rem 1.6875rem
+                    background: #fff
+                    border: 2px solid #70908B
+                    margin-right: 0.875rem
+                    color: $lightGreen
+                    transition: all .3s
+                    &:last-of-type
+                        margin-right: 0
+                    &:hover
+                        background: $lightGreen
+                        color: #fff
+            &-radios
+                display: flex
+                flex-wrap: wrap
+                max-width: 26.4375rem
+        &-radios
+            &-group
+                &:nth-of-type(1)
+                    margin-right: 3.3125rem
+                    margin-bottom: 0.875rem
+                &:nth-of-type(3)
+                    margin-right: 3.0125rem
+        &-bottom
+            .input
+                text-indent: 20px
+                border-radius: 8px
+                font-family: 'Raleway', sans-serif
+            &-group
+                display: flex
+                margin-bottom: 1.25rem
+            &__input
+                margin-right: 1.25rem
+                width: 100%
+                height: 3.875rem
+                &::placeholder
+                    color: $mainGreen
+                &:last-of-type
+                    margin-right: 0
+            &__textarea
+                resize: none
+                padding-top: 21px
+                width: 100%
+                height: 6.75rem
+                &::placeholder
+                    color: $mainGreen
+        &-button-content
+            display: flex
+            justify-content: center
+        &__button
+            padding: 1.6875rem 7.1875rem
+            font-weight: bold
+            font-size: 0.875rem
+            line-height: 1rem
+            color: #fff
+            position: absolute
+            bottom: -35px
+            box-shadow: 4px 4px 20px #C2CCCA, -8px -8px 20px #FFFFFF
+    &-count
+        display: flex
+        justify-content: center
+        align-items: center
+        font-weight: bold
+        font-size: 1.5rem
+        line-height: 1.8125rem
+        color: $mainGreen
+        margin-bottom: 1.5625rem
+        &-title
+            display: flex
+            justify-content: center
+            align-items: center
+            &__img
+                margin-right: 10px
+        &__text
+            margin-right: 5px
+        &__number
+            text-decoration: underline
+    &-action
+        text-align: center
+        line-height: 1.375rem
+        font-family: 'Raleway', sans-serif
+        color: $mainGreen
